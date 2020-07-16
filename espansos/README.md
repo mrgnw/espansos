@@ -8,3 +8,10 @@ package_repo: "https://github.com/mrgnw/espansos"
 ---
 My [espanso](https://espanso.org) shortcuts
 
+[Install espanso](https://espanso.org/install/)
+
+Then install the package via espanso cli:
+
+```
+espanso install espansos https://github.com/mrgnw/espansos --external
+```
