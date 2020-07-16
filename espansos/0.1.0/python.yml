@@ -1,0 +1,12 @@
+name: python
+parent: default
+
+matches:
+  - trigger: "pmo"
+    replace: "python-modernize"
+  - trigger: ";dt"
+    replace: "datetime"
+  - trigger: ";idt"
+    replace: "from datetime import datetime"
+  - trigger: ";now"
+    replace: "datetime.now()"

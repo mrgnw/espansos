@@ -1,0 +1,8 @@
+name: regex
+parent: default
+
+matches:
+  - trigger: ";rxlines"
+    replace: "(?:[^\\n]*\\n){7}"
+  - trigger: ";rxtabs"
+    replace: "(?:[^\\t]*\\t){7}"
