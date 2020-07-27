@@ -15,3 +15,4 @@ Then install the package via espanso cli:
 ```
 espanso install espansos https://github.com/mrgnw/espansos --external
 ```
+
