@@ -1,0 +1,7 @@
+name: docker
+parent: default
+
+matches:
+  - trigger: "d-c"
+    replace: "docker-compose"
+    word: true
