@@ -4,6 +4,7 @@ parent: default
 matches:
   - trigger: "pmo"
     replace: "python-modernize"
+    word: true
   - trigger: ";dt"
     replace: "datetime"
   - trigger: ";idt"
